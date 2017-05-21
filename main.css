@@ -1,143 +1,129 @@
-body {
-    font-family: Lora, 'Times New Roman', serif;
-    background: red;
-}
-
-.container {
-    width: 100%;
-    background: white;
-    overflow: hidden;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-nav {
-    margin-top: 0px;
-}
-
-.blockquote {
-    border-left: 5px solid lightgray;
-    font-style: italic;
-    padding-left: 20px;
-}
-
-.navbar-list {
+.float-right {
     list-style: none;
-}
-
-.navbar-list li {
     float: right;
-    margin: 25px 15px;
+    padding: 10px 10px 5px 10px;
     font-size: 12px;
-    font-weight: 800;
 }
 
-.navbar-list li#brand {
-    float: left;
-    font-size: 13px;
-}
-
-.white {
-    color: white;
-}
-
-.header {
-    background-image: url('http://blackrockdigital.github.io/startbootstrap-clean-blog/img/post-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    margin-top: -20px;
-    height: 700px;
-}
-
-h1,
-h2,
-h3,
-.navbar-list li,
-.navbar-list li#brand {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.navbar-list li#brand {
-    font-weight: 800;
-}
-
-.header h1 {
-    padding-top: 180px;
-    padding-bottom: 5px;
-    font-size: 50px;
-    font-weight: 800;
-}
-
-.header h2 {
-    font-size: 42px;
-    font-weight: normal;
-}
-
-.header h3 {
-    font-family: Lora, 'Times New Roman', serif;
-    font-style: italic;
-}
-
-.article {
-    padding-top: 45px;
-    padding-bottom: 5px;
-    font-family: Lora, 'Times New Roman', serif;
-}
-
-.article p {
-    font-size: 22px;
-    margin-top: 20px;
-    padding-bottom: 22px;
-}
-
-.article h2 {
-    font-weight: 800;
-}
-
-img {
-    width: 100%;
-}
-
-p.small {
-    margin-top: 10px;
-    text-align: center;
-    font-style: italic;
-    font-size: 15px;
-}
-
-hr {
-    color: darkgray;
-}
-
-.footsy {
-    padding-top: 50px;
-}
-
-.logos {
-    padding-left: 20px;
-}
-
-.logos li {
+.float-left {
     list-style: none;
-    display: inline-block;
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
-    margin: 20px 6px 20px 6px;
-    padding-top: 9px;
-    text-align: center;
-    color: white;
-    background: #333333;
     float: left;
+    padding: 10px 5px;
+    font-size: 14px;
 }
 
-.copyright {
-    margin-top: 0px;
-    font-family: Lora, 'Times New Roman', serif;
-    padding-bottom: 65px;
+.navbar {
+    height: 600px;
+    width: 100%;
+    background-image: url("https://i.ytimg.com/vi/jXil9P1xqKI/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-position: top-left;
+    background-size: cover;
+    /*this fits the image to the full lenth and width of the navbar*/
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    margin-top: 50px;
+    padding-top: 75px;
+    padding-left: 25%;
+    padding-right: auto;
+    font-size: 3.5vw;
+    font-weight: 600;
+}
+
+p {
+    color: white;
+    padding-left: 25%;
+    padding-right: auto;
+    font-weight: bold;
+}
+
+.font-size {
+    font-size: 2.5vw;
+}
+
+.font-style {
+    font-family: Georgia;
+    font-size: 1.5vw;
 }
 
 a {
-    text-decoration: none;
     color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+#content {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.bold {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.floating-box {
+    display: inline-block;
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    border-left: 2px solid;
+    border-color: lightgrey;
+    color: grey;
+    font-style: italic;
+    font-size: 18px;
+    padding: 5px 0px 5px 10px;
+}
+
+img {
+    width: 700px;
+}
+
+.center-text {
+    display: block;
+    text-align: center;
+    color: grey;
+    font-style: italic;
+    font-size: 14px;
+}
+
+hr {
+    display: block;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: lightgrey;
+}
+
+#one {
+    text-decoration: underline;
+    color: black;
+}
+
+#a {
+    color: black;
+}
+
+.social {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.copyright {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 35px;
 }
